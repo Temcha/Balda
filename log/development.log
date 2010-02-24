@@ -8662,3 +8662,750 @@ Completed in 0ms (DB: 0) | 302 Found [http://localhost/play/add_symbol]
 Processing PlayController#won (for 127.0.0.1 at 2010-02-24 15:56:54) [GET]
 Rendering play/end_game
 Completed in 0ms (View: 0, DB: 15) | 200 OK [http://localhost/play/won]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PlayController#start (for 127.0.0.1 at 2010-02-24 16:39:52) [GET]
+Redirected to http://localhost:3000/play
+Completed in 0ms (DB: 0) | 302 Found [http://localhost/play/start]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PlayController#index (for 127.0.0.1 at 2010-02-24 16:39:52) [GET]
+  [4;36;1mWord Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `words`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM `words` [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM `words` [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(-1) AS count_1 FROM `words` [0m
+  [4;36;1mWord Load (0.0ms)[0m   [0;1mSELECT * FROM `words` WHERE (`words`.`id` = 3) [0m
+Rendering play/index
+Completed in 94ms (View: 31, DB: 0) | 200 OK [http://localhost/play]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PlayController#add_symbol (for 127.0.0.1 at 2010-02-24 16:39:56) [POST]
+  Parameters: {"alpha"=>"o", "commit"=>"Отправить", "authenticity_token"=>"cYIUzT2FVBJ6vpiy3wkL86avLPNeqrLC5u68z6T6EfI="}
+Redirected to http://localhost:3000/play
+Completed in 15ms (DB: 0) | 302 Found [http://localhost/play/add_symbol]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PlayController#index (for 127.0.0.1 at 2010-02-24 16:39:57) [GET]
+Rendering play/index
+Completed in 15ms (View: 0, DB: 0) | 200 OK [http://localhost/play]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PlayController#add_symbol (for 127.0.0.1 at 2010-02-24 16:40:02) [POST]
+  Parameters: {"alpha"=>"u", "commit"=>"Отправить", "authenticity_token"=>"cYIUzT2FVBJ6vpiy3wkL86avLPNeqrLC5u68z6T6EfI="}
+Redirected to http://localhost:3000/play
+Completed in 16ms (DB: 0) | 302 Found [http://localhost/play/add_symbol]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PlayController#index (for 127.0.0.1 at 2010-02-24 16:40:02) [GET]
+Rendering play/index
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/play]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PlayController#add_symbol (for 127.0.0.1 at 2010-02-24 16:40:14) [POST]
+  Parameters: {"alpha"=>"e", "commit"=>"Отправить", "authenticity_token"=>"cYIUzT2FVBJ6vpiy3wkL86avLPNeqrLC5u68z6T6EfI="}
+Redirected to http://localhost:3000/play
+Completed in 0ms (DB: 0) | 302 Found [http://localhost/play/add_symbol]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PlayController#index (for 127.0.0.1 at 2010-02-24 16:40:14) [GET]
+Rendering play/index
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/play]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PlayController#add_symbol (for 127.0.0.1 at 2010-02-24 16:40:23) [POST]
+  Parameters: {"alpha"=>"m", "commit"=>"Отправить", "authenticity_token"=>"cYIUzT2FVBJ6vpiy3wkL86avLPNeqrLC5u68z6T6EfI="}
+Redirected to http://localhost:3000/play
+Completed in 15ms (DB: 0) | 302 Found [http://localhost/play/add_symbol]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PlayController#index (for 127.0.0.1 at 2010-02-24 16:40:23) [GET]
+Rendering play/index
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/play]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PlayController#add_symbol (for 127.0.0.1 at 2010-02-24 16:40:27) [POST]
+  Parameters: {"alpha"=>"d", "commit"=>"Отправить", "authenticity_token"=>"cYIUzT2FVBJ6vpiy3wkL86avLPNeqrLC5u68z6T6EfI="}
+Redirected to http://localhost:3000/play
+Completed in 16ms (DB: 0) | 302 Found [http://localhost/play/add_symbol]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PlayController#index (for 127.0.0.1 at 2010-02-24 16:40:27) [GET]
+Rendering play/index
+Completed in 15ms (View: 0, DB: 0) | 200 OK [http://localhost/play]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PlayController#add_symbol (for 127.0.0.1 at 2010-02-24 16:40:29) [POST]
+  Parameters: {"alpha"=>"l", "commit"=>"Отправить", "authenticity_token"=>"cYIUzT2FVBJ6vpiy3wkL86avLPNeqrLC5u68z6T6EfI="}
+Redirected to http://localhost:3000/play/won
+Completed in 16ms (DB: 0) | 302 Found [http://localhost/play/add_symbol]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PlayController#won (for 127.0.0.1 at 2010-02-24 16:40:29) [GET]
+Rendering play/end_game
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/play/won]
+  [4;35;1mSQL (16.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PlayController#start (for 127.0.0.1 at 2010-02-24 16:48:08) [GET]
+Redirected to http://localhost:3000/play
+Completed in 16ms (DB: 16) | 302 Found [http://localhost/play/start]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PlayController#index (for 127.0.0.1 at 2010-02-24 16:48:08) [GET]
+  [4;35;1mWord Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `words`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM `words` [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM `words` [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(-1) AS count_1 FROM `words` [0m
+  [4;35;1mWord Load (0.0ms)[0m   [0mSELECT * FROM `words` WHERE (`words`.`id` = 3) [0m
+Rendering play/index
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://localhost/play]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PlayController#add_symbol (for 127.0.0.1 at 2010-02-24 16:48:12) [POST]
+  Parameters: {"alpha"=>"a", "commit"=>"Отправить", "authenticity_token"=>"cYIUzT2FVBJ6vpiy3wkL86avLPNeqrLC5u68z6T6EfI="}
+Redirected to http://localhost:3000/play
+Completed in 15ms (DB: 0) | 302 Found [http://localhost/play/add_symbol]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PlayController#index (for 127.0.0.1 at 2010-02-24 16:48:12) [GET]
+Rendering play/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/play]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PlayController#add_symbol (for 127.0.0.1 at 2010-02-24 16:48:15) [POST]
+  Parameters: {"alpha"=>"a", "commit"=>"Отправить", "authenticity_token"=>"cYIUzT2FVBJ6vpiy3wkL86avLPNeqrLC5u68z6T6EfI="}
+Redirected to http://localhost:3000/play
+Completed in 16ms (DB: 0) | 302 Found [http://localhost/play/add_symbol]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (16.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PlayController#index (for 127.0.0.1 at 2010-02-24 16:48:15) [GET]
+Rendering play/index
+Completed in 15ms (View: 15, DB: 16) | 200 OK [http://localhost/play]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PlayController#index (for 127.0.0.1 at 2010-02-24 16:50:13) [GET]
+Rendering play/index
+Completed in 15ms (View: 0, DB: 0) | 200 OK [http://localhost/play]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PlayController#add_symbol (for 127.0.0.1 at 2010-02-24 16:50:18) [POST]
+  Parameters: {"alpha"=>"a", "commit"=>"Отправить", "authenticity_token"=>"cYIUzT2FVBJ6vpiy3wkL86avLPNeqrLC5u68z6T6EfI="}
+Redirected to http://localhost:3000/play
+Completed in 16ms (DB: 0) | 302 Found [http://localhost/play/add_symbol]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PlayController#index (for 127.0.0.1 at 2010-02-24 16:50:18) [GET]
+Rendering play/index
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/play]
+  [4;36;1mSQL (16.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PlayController#index (for 127.0.0.1 at 2010-02-24 16:51:27) [GET]
+Rendering play/index
+Completed in 15ms (View: 0, DB: 16) | 200 OK [http://localhost/play]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PlayController#add_symbol (for 127.0.0.1 at 2010-02-24 16:51:31) [POST]
+  Parameters: {"alpha"=>"a", "commit"=>"Отправить", "authenticity_token"=>"cYIUzT2FVBJ6vpiy3wkL86avLPNeqrLC5u68z6T6EfI="}
+Redirected to http://localhost:3000/play
+Completed in 15ms (DB: 0) | 302 Found [http://localhost/play/add_symbol]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PlayController#index (for 127.0.0.1 at 2010-02-24 16:51:32) [GET]
+Rendering play/index
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/play]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PlayController#index (for 127.0.0.1 at 2010-02-24 16:59:45) [GET]
+Rendering play/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/play]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PlayController#index (for 127.0.0.1 at 2010-02-24 16:59:47) [GET]
+Rendering play/index
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/play]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PlayController#index (for 127.0.0.1 at 2010-02-24 17:00:20) [GET]
+Rendering template within layouts/play
+Rendering play/index
+
+ActionView::TemplateError (undefined method `yeld' for #<ActionView::Base:0x4801480>) on line #7 of app/views/layouts/play.html.erb:
+4: </head>
+5: <body>
+6:   <h1>Угадай слово</h1>
+7:   <%=  yeld :layout %>
+8: </body>
+9: </html>
+
+    app/views/layouts/play.html.erb:7
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (328.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PlayController#index (for 127.0.0.1 at 2010-02-24 17:02:40) [GET]
+Rendering template within layouts/play
+Rendering play/index
+Completed in 32ms (View: 16, DB: 0) | 200 OK [http://localhost/play]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PlayController#add_symbol (for 127.0.0.1 at 2010-02-24 17:02:48) [POST]
+  Parameters: {"alpha"=>"a", "commit"=>"Отправить", "authenticity_token"=>"cYIUzT2FVBJ6vpiy3wkL86avLPNeqrLC5u68z6T6EfI="}
+Redirected to http://localhost:3000/play
+Completed in 0ms (DB: 0) | 302 Found [http://localhost/play/add_symbol]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PlayController#index (for 127.0.0.1 at 2010-02-24 17:02:48) [GET]
+Rendering template within layouts/play
+Rendering play/index
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/play]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PlayController#index (for 127.0.0.1 at 2010-02-24 17:03:58) [GET]
+Rendering template within layouts/play
+Rendering play/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/play]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PlayController#index (for 127.0.0.1 at 2010-02-24 17:04:01) [GET]
+Rendering template within layouts/play
+Rendering play/index
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/play]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PlayController#start (for 127.0.0.1 at 2010-02-24 17:04:33) [GET]
+Redirected to http://localhost:3000/play
+Completed in 16ms (DB: 0) | 302 Found [http://localhost/play/start]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PlayController#index (for 127.0.0.1 at 2010-02-24 17:04:33) [GET]
+  [4;36;1mWord Columns (15.0ms)[0m   [0;1mSHOW FIELDS FROM `words`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM `words` [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM `words` [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(-1) AS count_1 FROM `words` [0m
+  [4;36;1mWord Load (0.0ms)[0m   [0;1mSELECT * FROM `words` WHERE (`words`.`id` = 5) [0m
+Rendering template within layouts/play
+Rendering play/index
+Completed in 31ms (View: 16, DB: 15) | 200 OK [http://localhost/play]
+  [4;35;1mSQL (16.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PlayController#add_symbol (for 127.0.0.1 at 2010-02-24 17:04:44) [POST]
+  Parameters: {"alpha"=>"s", "commit"=>"Отправить", "authenticity_token"=>"cYIUzT2FVBJ6vpiy3wkL86avLPNeqrLC5u68z6T6EfI="}
+Redirected to http://localhost:3000/play
+Completed in 15ms (DB: 16) | 302 Found [http://localhost/play/add_symbol]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PlayController#index (for 127.0.0.1 at 2010-02-24 17:04:44) [GET]
+Rendering template within layouts/play
+Rendering play/index
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/play]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PlayController#add_symbol (for 127.0.0.1 at 2010-02-24 17:04:48) [POST]
+  Parameters: {"alpha"=>"s", "commit"=>"Отправить", "authenticity_token"=>"cYIUzT2FVBJ6vpiy3wkL86avLPNeqrLC5u68z6T6EfI="}
+Redirected to http://localhost:3000/play
+Completed in 16ms (DB: 0) | 302 Found [http://localhost/play/add_symbol]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PlayController#index (for 127.0.0.1 at 2010-02-24 17:04:48) [GET]
+Rendering template within layouts/play
+Rendering play/index
+Completed in 78ms (View: 31, DB: 0) | 200 OK [http://localhost/play]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PlayController#index (for 127.0.0.1 at 2010-02-24 17:05:07) [GET]
+Rendering template within layouts/play
+Rendering play/index
+Completed in 78ms (View: 78, DB: 0) | 200 OK [http://localhost/play]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PlayController#start (for 127.0.0.1 at 2010-02-24 17:05:12) [GET]
+Redirected to http://localhost:3000/play
+Completed in 0ms (DB: 0) | 302 Found [http://localhost/play/start]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PlayController#index (for 127.0.0.1 at 2010-02-24 17:05:12) [GET]
+  [4;36;1mWord Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `words`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM `words` [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM `words` [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(-1) AS count_1 FROM `words` [0m
+  [4;36;1mWord Load (0.0ms)[0m   [0;1mSELECT * FROM `words` WHERE (`words`.`id` = 1) [0m
+Rendering template within layouts/play
+Rendering play/index
+Completed in 32ms (View: 0, DB: 0) | 200 OK [http://localhost/play]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PlayController#index (for 127.0.0.1 at 2010-02-24 17:06:05) [GET]
+Rendering template within layouts/play
+Rendering play/index
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://localhost/play]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PlayController#add_symbol (for 127.0.0.1 at 2010-02-24 17:06:25) [POST]
+  Parameters: {"alpha"=>"a", "commit"=>"Отправить", "authenticity_token"=>"cYIUzT2FVBJ6vpiy3wkL86avLPNeqrLC5u68z6T6EfI="}
+Redirected to http://localhost:3000/play
+Completed in 16ms (DB: 0) | 302 Found [http://localhost/play/add_symbol]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PlayController#index (for 127.0.0.1 at 2010-02-24 17:06:25) [GET]
+Rendering template within layouts/play
+Rendering play/index
+Completed in 15ms (View: 0, DB: 0) | 200 OK [http://localhost/play]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PlayController#add_symbol (for 127.0.0.1 at 2010-02-24 17:06:27) [POST]
+  Parameters: {"alpha"=>"a", "commit"=>"Отправить", "authenticity_token"=>"cYIUzT2FVBJ6vpiy3wkL86avLPNeqrLC5u68z6T6EfI="}
+Redirected to http://localhost:3000/play
+Completed in 0ms (DB: 0) | 302 Found [http://localhost/play/add_symbol]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PlayController#index (for 127.0.0.1 at 2010-02-24 17:06:27) [GET]
+Rendering template within layouts/play
+Rendering play/index
+Completed in 15ms (View: 0, DB: 0) | 200 OK [http://localhost/play]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PlayController#index (for 127.0.0.1 at 2010-02-24 17:06:55) [GET]
+Rendering template within layouts/play
+Rendering play/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/play]
+  [4;35;1mSQL (16.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PlayController#add_symbol (for 127.0.0.1 at 2010-02-24 17:06:58) [POST]
+  Parameters: {"alpha"=>"a", "commit"=>"Отправить", "authenticity_token"=>"cYIUzT2FVBJ6vpiy3wkL86avLPNeqrLC5u68z6T6EfI="}
+Redirected to http://localhost:3000/play
+Completed in 15ms (DB: 16) | 302 Found [http://localhost/play/add_symbol]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PlayController#index (for 127.0.0.1 at 2010-02-24 17:06:58) [GET]
+Rendering template within layouts/play
+Rendering play/index
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/play]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PlayController#start (for 127.0.0.1 at 2010-02-24 17:07:05) [GET]
+Redirected to http://localhost:3000/play
+Completed in 16ms (DB: 0) | 302 Found [http://localhost/play/start]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PlayController#index (for 127.0.0.1 at 2010-02-24 17:07:05) [GET]
+  [4;35;1mWord Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `words`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM `words` [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM `words` [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(-1) AS count_1 FROM `words` [0m
+  [4;35;1mWord Load (0.0ms)[0m   [0mSELECT * FROM `words` WHERE (`words`.`id` = 1) [0m
+Rendering template within layouts/play
+Rendering play/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/play]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PlayController#add_symbol (for 127.0.0.1 at 2010-02-24 17:07:08) [POST]
+  Parameters: {"alpha"=>"a", "commit"=>"Отправить", "authenticity_token"=>"cYIUzT2FVBJ6vpiy3wkL86avLPNeqrLC5u68z6T6EfI="}
+Redirected to http://localhost:3000/play
+Completed in 0ms (DB: 0) | 302 Found [http://localhost/play/add_symbol]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PlayController#index (for 127.0.0.1 at 2010-02-24 17:07:08) [GET]
+Rendering template within layouts/play
+Rendering play/index
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/play]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PlayController#add_symbol (for 127.0.0.1 at 2010-02-24 17:07:10) [POST]
+  Parameters: {"alpha"=>"a", "commit"=>"Отправить", "authenticity_token"=>"cYIUzT2FVBJ6vpiy3wkL86avLPNeqrLC5u68z6T6EfI="}
+Redirected to http://localhost:3000/play
+Completed in 0ms (DB: 0) | 302 Found [http://localhost/play/add_symbol]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PlayController#index (for 127.0.0.1 at 2010-02-24 17:07:10) [GET]
+Rendering template within layouts/play
+Rendering play/index
+Completed in 15ms (View: 0, DB: 0) | 200 OK [http://localhost/play]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PlayController#start (for 127.0.0.1 at 2010-02-24 17:07:42) [GET]
+Redirected to http://localhost:3000/play
+Completed in 16ms (DB: 0) | 302 Found [http://localhost/play/start]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PlayController#index (for 127.0.0.1 at 2010-02-24 17:07:43) [GET]
+  [4;36;1mWord Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `words`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM `words` [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM `words` [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(-1) AS count_1 FROM `words` [0m
+  [4;36;1mWord Load (0.0ms)[0m   [0;1mSELECT * FROM `words` WHERE (`words`.`id` = 7) [0m
+Rendering template within layouts/play
+Rendering play/index
+Completed in 94ms (View: 31, DB: 0) | 200 OK [http://localhost/play]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PlayController#start (for 127.0.0.1 at 2010-02-24 17:07:45) [GET]
+Redirected to http://localhost:3000/play
+Completed in 0ms (DB: 0) | 302 Found [http://localhost/play/start]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PlayController#index (for 127.0.0.1 at 2010-02-24 17:07:45) [GET]
+  [4;35;1mWord Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `words`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM `words` [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM `words` [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(-1) AS count_1 FROM `words` [0m
+  [4;35;1mWord Load (15.0ms)[0m   [0mSELECT * FROM `words` WHERE (`words`.`id` = 7) [0m
+Rendering template within layouts/play
+Rendering play/index
+Completed in 31ms (View: 0, DB: 15) | 200 OK [http://localhost/play]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PlayController#add_symbol (for 127.0.0.1 at 2010-02-24 17:07:48) [POST]
+  Parameters: {"alpha"=>"a", "commit"=>"Отправить", "authenticity_token"=>"cYIUzT2FVBJ6vpiy3wkL86avLPNeqrLC5u68z6T6EfI="}
+Redirected to http://localhost:3000/play
+Completed in 15ms (DB: 0) | 302 Found [http://localhost/play/add_symbol]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PlayController#index (for 127.0.0.1 at 2010-02-24 17:07:48) [GET]
+Rendering template within layouts/play
+Rendering play/index
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/play]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PlayController#add_symbol (for 127.0.0.1 at 2010-02-24 17:07:50) [POST]
+  Parameters: {"alpha"=>"a", "commit"=>"Отправить", "authenticity_token"=>"cYIUzT2FVBJ6vpiy3wkL86avLPNeqrLC5u68z6T6EfI="}
+Redirected to http://localhost:3000/play
+Completed in 16ms (DB: 0) | 302 Found [http://localhost/play/add_symbol]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PlayController#index (for 127.0.0.1 at 2010-02-24 17:07:50) [GET]
+Rendering template within layouts/play
+Rendering play/index
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/play]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PlayController#index (for 127.0.0.1 at 2010-02-24 17:14:47) [GET]
+Rendering template within layouts/play
+Rendering play/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/play]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PlayController#add_symbol (for 127.0.0.1 at 2010-02-24 17:14:51) [POST]
+  Parameters: {"alpha"=>"a", "commit"=>"Отправить", "authenticity_token"=>"cYIUzT2FVBJ6vpiy3wkL86avLPNeqrLC5u68z6T6EfI="}
+Redirected to http://localhost:3000/play
+Completed in 15ms (DB: 0) | 302 Found [http://localhost/play/add_symbol]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PlayController#index (for 127.0.0.1 at 2010-02-24 17:14:51) [GET]
+Rendering template within layouts/play
+Rendering play/index
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/play]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PlayController#index (for 127.0.0.1 at 2010-02-24 17:16:18) [GET]
+Rendering template within layouts/play
+Rendering play/index
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://localhost/play]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PlayController#add_symbol (for 127.0.0.1 at 2010-02-24 17:16:20) [POST]
+  Parameters: {"alpha"=>"a", "commit"=>"Отправить", "authenticity_token"=>"cYIUzT2FVBJ6vpiy3wkL86avLPNeqrLC5u68z6T6EfI="}
+Redirected to http://localhost:3000/play
+Completed in 15ms (DB: 0) | 302 Found [http://localhost/play/add_symbol]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PlayController#index (for 127.0.0.1 at 2010-02-24 17:16:21) [GET]
+Rendering template within layouts/play
+Rendering play/index
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/play]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PlayController#add_symbol (for 127.0.0.1 at 2010-02-24 17:16:27) [POST]
+  Parameters: {"alpha"=>"s", "commit"=>"Отправить", "authenticity_token"=>"cYIUzT2FVBJ6vpiy3wkL86avLPNeqrLC5u68z6T6EfI="}
+Redirected to http://localhost:3000/play
+Completed in 16ms (DB: 0) | 302 Found [http://localhost/play/add_symbol]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PlayController#index (for 127.0.0.1 at 2010-02-24 17:16:27) [GET]
+Rendering template within layouts/play
+Rendering play/index
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/play]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PlayController#add_symbol (for 127.0.0.1 at 2010-02-24 17:16:30) [POST]
+  Parameters: {"alpha"=>"d", "commit"=>"Отправить", "authenticity_token"=>"cYIUzT2FVBJ6vpiy3wkL86avLPNeqrLC5u68z6T6EfI="}
+Redirected to http://localhost:3000/play
+Completed in 16ms (DB: 0) | 302 Found [http://localhost/play/add_symbol]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PlayController#index (for 127.0.0.1 at 2010-02-24 17:16:30) [GET]
+Rendering template within layouts/play
+Rendering play/index
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/play]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PlayController#add_symbol (for 127.0.0.1 at 2010-02-24 17:16:34) [POST]
+  Parameters: {"alpha"=>"f", "commit"=>"Отправить", "authenticity_token"=>"cYIUzT2FVBJ6vpiy3wkL86avLPNeqrLC5u68z6T6EfI="}
+Redirected to http://localhost:3000/play
+Completed in 15ms (DB: 0) | 302 Found [http://localhost/play/add_symbol]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PlayController#index (for 127.0.0.1 at 2010-02-24 17:16:34) [GET]
+Rendering template within layouts/play
+Rendering play/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/play]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PlayController#add_symbol (for 127.0.0.1 at 2010-02-24 17:16:38) [POST]
+  Parameters: {"alpha"=>"h", "commit"=>"Отправить", "authenticity_token"=>"cYIUzT2FVBJ6vpiy3wkL86avLPNeqrLC5u68z6T6EfI="}
+Redirected to http://localhost:3000/play
+Completed in 16ms (DB: 0) | 302 Found [http://localhost/play/add_symbol]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PlayController#index (for 127.0.0.1 at 2010-02-24 17:16:38) [GET]
+Rendering template within layouts/play
+Rendering play/index
+Completed in 78ms (View: 31, DB: 0) | 200 OK [http://localhost/play]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PlayController#add_symbol (for 127.0.0.1 at 2010-02-24 17:16:41) [POST]
+  Parameters: {"alpha"=>"j", "commit"=>"Отправить", "authenticity_token"=>"cYIUzT2FVBJ6vpiy3wkL86avLPNeqrLC5u68z6T6EfI="}
+Redirected to http://localhost:3000/play
+Completed in 0ms (DB: 0) | 302 Found [http://localhost/play/add_symbol]
+  [4;36;1mSQL (15.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PlayController#index (for 127.0.0.1 at 2010-02-24 17:16:41) [GET]
+Rendering template within layouts/play
+Rendering play/index
+Completed in 16ms (View: 16, DB: 15) | 200 OK [http://localhost/play]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PlayController#add_symbol (for 127.0.0.1 at 2010-02-24 17:16:44) [POST]
+  Parameters: {"alpha"=>"l", "commit"=>"Отправить", "authenticity_token"=>"cYIUzT2FVBJ6vpiy3wkL86avLPNeqrLC5u68z6T6EfI="}
+Redirected to http://localhost:3000/play
+Completed in 16ms (DB: 0) | 302 Found [http://localhost/play/add_symbol]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PlayController#index (for 127.0.0.1 at 2010-02-24 17:16:44) [GET]
+Rendering template within layouts/play
+Rendering play/index
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/play]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PlayController#add_symbol (for 127.0.0.1 at 2010-02-24 17:16:47) [POST]
+  Parameters: {"alpha"=>"z", "commit"=>"Отправить", "authenticity_token"=>"cYIUzT2FVBJ6vpiy3wkL86avLPNeqrLC5u68z6T6EfI="}
+Redirected to http://localhost:3000/play
+Completed in 16ms (DB: 0) | 302 Found [http://localhost/play/add_symbol]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PlayController#index (for 127.0.0.1 at 2010-02-24 17:16:47) [GET]
+Rendering template within layouts/play
+Rendering play/index
+Completed in 15ms (View: 0, DB: 0) | 200 OK [http://localhost/play]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PlayController#add_symbol (for 127.0.0.1 at 2010-02-24 17:16:50) [POST]
+  Parameters: {"alpha"=>"x", "commit"=>"Отправить", "authenticity_token"=>"cYIUzT2FVBJ6vpiy3wkL86avLPNeqrLC5u68z6T6EfI="}
+Redirected to http://localhost:3000/play
+Completed in 16ms (DB: 0) | 302 Found [http://localhost/play/add_symbol]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PlayController#index (for 127.0.0.1 at 2010-02-24 17:16:50) [GET]
+Rendering template within layouts/play
+Rendering play/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/play]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PlayController#add_symbol (for 127.0.0.1 at 2010-02-24 17:16:53) [POST]
+  Parameters: {"alpha"=>"c", "commit"=>"Отправить", "authenticity_token"=>"cYIUzT2FVBJ6vpiy3wkL86avLPNeqrLC5u68z6T6EfI="}
+Redirected to http://localhost:3000/play/miss
+Completed in 0ms (DB: 0) | 302 Found [http://localhost/play/add_symbol]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PlayController#miss (for 127.0.0.1 at 2010-02-24 17:16:53) [GET]
+Rendering template within layouts/play
+Rendering play/end_game
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://localhost/play/miss]

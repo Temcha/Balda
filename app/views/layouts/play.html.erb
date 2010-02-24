@@ -1,0 +1,13 @@
+<html>
+<head>
+  <title>Угадай слово</title>
+  <%= stylesheet_link_tag 'balda', :media => 'all' %>
+</head>
+<body>
+  <h1>Игра "Угадай слово"</h1>
+  <% if flash[:notice] %>
+  <div id ="note"><h3><%=flash[:notice]%></h3></div>
+  <% end %>
+  <%=  yield :layout %>
+</body>
+</html>

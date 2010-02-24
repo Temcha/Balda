@@ -1,5 +1,4 @@
 <h1>Игра окончена</h1>
-<div><h2><%=flash[:notice]%></h2></div>
 <h2> Слово было <%=@secret_word%> </h2>
 <p> <%= image_tag ( @image_name ) %> </p>
 <%=  link_to "Новая игра", :action=> "start"  %>
