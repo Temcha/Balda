@@ -10,7 +10,7 @@
 <p>Названные буквы <%@round.symbols.each {|symb| -%>
 <%= symb -%>
 <%}%></p>
-  <% form_tag :action => 'add_symbol'  do -%>
+  <% form_tag :controller => 'games', :action => 'add_symbol'  do -%>
     <div>Ваша буква: <%= text_field_tag 'alpha', '', :size => 1, :maxlength => 1 %></div>
     <div><%= submit_tag 'Отправить' %></div>
   <% end -%>
