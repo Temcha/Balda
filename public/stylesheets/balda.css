@@ -4,3 +4,25 @@ border: 2px solid red;
 background-color: #ffd0d0;
 
 }
+h1{
+    border: 1px solid teal;
+    background-color: aqua;
+}
+img{
+    margin: 0px;
+}
+.bottom_link{
+    border: 1px solid teal;
+    background-color: aqua;
+    float: left;
+    width: 100%;
+}
+.left_pane{
+    float: left;
+    width: 30%;
+    height: 400px;
+    background-color: teal;
+}
+.symbols_told{
+    background-color: teal;
+}

@@ -9,5 +9,8 @@
   <div id ="note"><h3><%=flash[:notice]%></h3></div>
   <% end %>
   <%=  yield :layout %>
+<div class="bottom_link">
+<%=  link_to "Новая игра", :action=> "start"  %>
+</div>
 </body>
 </html>

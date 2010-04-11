@@ -3,7 +3,6 @@ class GamesController < ApplicationController
 
   def index
     @miss_count = @round.miss_count
-    @secret_word = @round.secret_word
   end
 
   def start
@@ -14,14 +13,12 @@ class GamesController < ApplicationController
 
   def miss
     flash[:notice]='Вы проиграли!'
-    @secret_word = get_round.secret_word
     @image_name = 'zhmur.jpg'
     render :action => :end_game
   end
 
   def won
     flash[:notice]='Вы ВЫИГРАЛИ!!!'
-    @secret_word = get_round.secret_word
     @image_name = 'zhmur_alive.jpg'
     render :action => :end_game
   end

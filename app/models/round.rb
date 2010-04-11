@@ -3,8 +3,12 @@ class Round
 
   def initialize
     @symbols=[]
-    @secret_word = Word.random
+    @secret_word = Word.random || 'DEFAULT'
     @miss_count = 0
+  end
+
+  def secret_chars
+    @secret_word.split('').collect {|c| symbol_was_told?(c) ? c : '_' }
   end
 
   def add_miss
@@ -19,22 +23,17 @@ class Round
     self.add_miss unless self.secret_word.include?(symbol)
 
     @status = 'miss' if self.miss_count >= 7
-    @status = 'won' if self.all_symbols
+    @status = 'won' if self.all_symbols?
     true
   end
 
-  def has_symbol(symbol)
+  def symbol_was_told?(symbol)
     @symbols.find{|alpha| alpha == symbol}
   end
 
-  def all_symbols
-    all = true
-    @secret_word.split("").each {|symb|
-    unless has_symbol(symb)
-      all = false
-    end
-    }
-    all
+  def all_symbols?
+    @secret_word.split('').each {|symb| return false unless symbol_was_told?(symb)}
+    true
   end
 
   def validate_symbol(symbol)
@@ -42,7 +41,7 @@ class Round
     unless ('a'..'z').include?( symbol) or ('A'..'Z').include?( symbol)
       res = 'Введите букву английского алфавита'
     end
-    if has_symbol( symbol )
+    if symbol_was_told?( symbol )
       res = 'Вы уже называли эту букву!'
     end
     res

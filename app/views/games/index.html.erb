@@ -1,17 +1,18 @@
-<h2>Ошибок: <%=@round.miss_count%></h2>
-<!--<h2> <%=@secret_word%> </h2>-->
-<table border ="2">
-  <tr>
-  <%=secret_board%>
-  </tr>
-</table>
-<%= zmur %>
-
-<p>Названные буквы <%@round.symbols.each {|symb| -%>
-<%= symb -%>
-<%}%></p>
-  <% form_tag :controller => 'games', :action => 'add_symbol'  do -%>
-    <div>Ваша буква: <%= text_field_tag 'alpha', '', :size => 1, :maxlength => 1 %></div>
-    <div><%= submit_tag 'Отправить' %></div>
-  <% end -%>
-<%=  link_to "Новая игра", :action=> "start"  %>
+<p class="symbols_told"><b>Названные буквы: </b><%=  @round.symbols.each {|symb| symb }%></p>
+<div style="float: left; width: 100%;">
+  <div class="left_pane">
+    <table border="2">
+      <tr>
+        <%= render :partial => 'board', :collection => @round.secret_chars, :as => :symb %>
+      </tr>
+    </table>
+    <br/>
+      <% form_tag :controller => 'games', :action => 'add_symbol'  do -%>
+        <div>Ваша буква: <%= text_field_tag 'alpha', '', :size => 1, :maxlength => 1 %></div>
+        <div><%= submit_tag 'Отправить' %></div>
+      <% end -%>
+  </div>
+  <div style="width: 70%;">
+  <%= render :partial => 'zmur' %>
+  </div>
+</div>

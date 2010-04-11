@@ -1,4 +1,3 @@
 <h1>Игра окончена</h1>
-<h2> Слово было <%=@secret_word%> </h2>
+<h2> Слово было <%=@round.secret_word%> </h2>
 <p> <%= image_tag ( @image_name ) %> </p>
-<%=  link_to "Новая игра", :action=> "start"  %>

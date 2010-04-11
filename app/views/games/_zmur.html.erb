@@ -1,0 +1,13 @@
+<h2>Ошибок: <%=@round.miss_count%></h2>
+<div width="100%">
+ <%= image_tag( 'zhmur_head.jpg', :allign => 'center' ) if @miss_count > 0 -%>
+</div>
+<div width='100%'>
+<%= image_tag('zhmur_left_arm.jpg') if @miss_count > 1 -%>
+<%= image_tag('zhmur_body.jpg') if @miss_count > 2 -%>
+<%= image_tag('zhmur_right_arm.jpg') if @miss_count > 3 -%>
+</div>
+<div width='100%'>
+<%= image_tag( 'zhmur_left_leg.jpg') if @miss_count > 4 -%>
+<%= image_tag( 'zhmur_right_leg.jpg') if @miss_count > 5 -%>
+</div>
